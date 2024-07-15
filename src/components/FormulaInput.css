@@ -1,0 +1,46 @@
+.formula-input-container {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.formula-input-container input[type="text"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.formula-input-container ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+.formula-input-container ul li {
+    padding: 8px 12px;
+    cursor: pointer;
+    background-color: #f0f0f0;
+    border-radius: 4px;
+    margin-bottom: 4px;
+}
+
+.formula-input-container ul li:hover {
+    background-color: #e0e0e0;
+}
+
+.formula-input-container .formula-display {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.formula-input-container .result {
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
